@@ -15,7 +15,9 @@ The name is inspired by the [Beatles song "Getting Better"](https://www.youtube.
 > It's getting better all the time
 >
 > I admit it's getting better (Better)
+>
 > A little better all the time (It can't get no worse)
+>
 > Yes I admit it's getting better (Better)
 > 
 > Getting so much better all the time
@@ -24,8 +26,8 @@ By getting a little better all the time, we can build compound interest on incre
 
 Incremental improvement is powerful, and all great successes have been built incrementally, in one form or another. Don't be afraid of starting small — if you do, you will have already taken a step that most won't:
 
-> Asked how it could be that God often showed himself to people in the olden days while nowadays nobody ever sees him, the rabbi replied: "Nowadays there is now longer anybody who can bow low enough." ~ **Carl Jung**, *Man and His Symbols*
+> Asked how it could be that God often showed himself to people in the olden days while nowadays nobody ever sees him, the rabbi replied: "Nowadays there is now longer anybody who can bow low enough." ~ Carl Jung, *Man and His Symbols*
 
 ### Getting Started 
 
-As of now, getting better exists only as a blog post guide (available here), and a loose schema definition (available here). Ultimately, the goal is to develop it into a simple web-app that anyone can use to generate and keep track of their microsystems.
+As of now, GettingBetter exists only as a blog post guide (available here), and a loose schema definition (available here). Ultimately, the goal is to develop it into a simple web-app that anyone can use to generate and keep track of their microsystems.

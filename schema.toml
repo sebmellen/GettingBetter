@@ -1,0 +1,71 @@
+TITLE = "GettingBetter Schema"
+VERSION = "0.0.1"
+
+[system_1]
+    goal = "system_1.goal"
+    [system_1.routines]
+        routine_1 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+        routine_2 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+        routine_3 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+
+
+[system_2]
+    goal = "system_2.goal"
+    [system_2.routines]
+        routine_1 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+        routine_2 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+        routine_3 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+
+[system_3]
+    goal = "system_3.goal"
+    [system_3.routines]
+        routine_1 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+        routine_2 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+        routine_3 = [
+            "task_1",
+            "task_2",
+            "task_3",
+            "task_4"
+        ]
+
+
