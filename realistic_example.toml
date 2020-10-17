@@ -1,0 +1,34 @@
+TITLE = "Realistic Example of the GettingBetter Schema"
+VERSION = "0.0.2"
+
+[good_sleep]
+    goal = "Regulate circadian rhythms, get better deep sleep, and improve overall sleep quality."
+    [good_sleep.routines]
+        waking_up = [
+            "Turn off alarm",
+            "Use bathroom",
+            "Shower",
+            "Floss and brush teeth",
+            "Shave, comb, apply deodorant",
+            "Get dressed",
+            "Drink a glass of water",
+            "Take medication",
+            "Apply chapstick (if winter)"
+        ]
+        morning_exercise = [
+            "10 minute Wim Hof breathing exercise",
+            "15 minute bike ride or 1 mile run",
+            "10 minutes lifting weight or calisthenics",
+            "2 minutes of cooldown",
+            "5 minutes of stretching"
+        ]
+        going_to_sleep = [
+            "Clean up desk",
+            "Shut down computer",
+            "Wash face",
+            "Floss and brush teeth",
+            "Open window and draw blinds closed",
+            "Set alarm",
+            "10 minute meditation",
+            "Sleep"
+        ]
