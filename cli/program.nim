@@ -1,49 +1,31 @@
-import docopt, parsetoml, json, strformat, strutils, unicode
+import parsetoml, json, strformat, strutils, unicode
 
-let doc = """
+
+echo """
 Welcome to GettingBetter! GettingBetter is a systems-based framework for improving your life.
 The three basic functions provided by this CLI allow you to: 
 1. Add a task to a routine
 2. create a new routine, or 
 3. create a new system. 
-
-Usage:
-  naval_fate ship new <name>...
-  naval_fate ship <name> move <x> <y> [--speed=<kn>]
-  naval_fate ship shoot <x> <y>
-  naval_fate mine (set|remove) <x> <y> [--moored | --drifting]
-  naval_fate (-h | --help)
-  naval_fate --version
-
-Options:
-  -h --help     Show this screen.
-  --version     Show version.
-  --speed=<kn>  Speed in knots [default: 10].
-  --moored      Moored (anchored) mine.
-  --drifting    Drifting mine.
 """
 
-let args = docopt(doc)
-echo args
 
-if args["-v"]:
-  echo unicode.capitalize(repeat("very ", args["-v"].len - 1) & "verbose")
-
-for path in @(args["--path"]):
-  echo read_file(path)
-
-
-# CREATE A BASIC JSON FILE FROM INPUT.
-
-var
+#[ar
     task: string = "test"
     routine: string = "basic hygiene"
     system: string = "another one"
 
 var jsonObject = %* {"task": task, "routine": routine, "system": system}
 
-echo jsonObject
+echo jsonObject]#
 
+echo "Respond with either \"add task\", \"create routine\", or \"create system\""
+
+let action: string = readLine(stdin)
+
+echo action
+
+let action3: string = readLine(stdin)
 
 # let schema = parsetoml.parseString()
 
