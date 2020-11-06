@@ -10,12 +10,8 @@ import click
 @click.option('--goal', prompt='Add a goal to a system.', help='Add a goal to a system')
 def hello(count, name):
     """GettingBetter is a systems-based framework for improving your life.
-
-    The three basic functions provided by this CLI allow you to: 
-
-    1. Add a task to a routine\n
-    2. create a new routine, or\n 
-    3. create a new system."""
+    The three basic functions provided by this CLI allow you to:\n
+    1) Add a task to a routine, 2) create a new routine, or 3) create a new system."""
 
     for x in range(count):
         click.echo('Hello %s!' % name)

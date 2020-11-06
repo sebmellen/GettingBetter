@@ -29,9 +29,9 @@ export default {
           to: { name: 'index' },
         },
         {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' },
+          title: 'App',
+          icon: 'app',
+          to: { name: 'app' },
         },
       ],
     }
