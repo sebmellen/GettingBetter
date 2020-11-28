@@ -34,7 +34,7 @@ As of now, GettingBetter exists only as a blog post guide (available here), and 
 
 ### Architecture
 
-![](/docs/systems-based-architecture.png)
+![](/docs/systems_based_architecture.png)
 
 ### Tenets
 
