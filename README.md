@@ -10,7 +10,7 @@
 
 ### Behind the Name
 
-The name is inspired by the [Beatles song "Getting Better"](https://www.youtube.com/watch?v=EGlo9LzmOME), in which Paul McCartney sings:
+The name is inspired by [the Beatles song "Getting Better"](https://www.youtube.com/watch?v=EGlo9LzmOME), in which Paul McCartney sings:
 
 > I've got to admit it's getting better (Better)
 >
