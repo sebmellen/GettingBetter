@@ -12,13 +12,13 @@
 
 The name is inspired by the [Beatles song "Getting Better"](https://www.youtube.com/watch?v=EGlo9LzmOME), in which Paul McCartney sings:
 
-> It's getting better all the time
->
-> I admit it's getting better (Better)
+> I've got to admit it's getting better (Better)
 >
 > A little better all the time (It can't get no worse)
 >
-> Yes I admit it's getting better (Better)
+> I have to admit it's getting better (Better)
+>
+> It's getting better since you've been mine
 >
 > Getting so much better all the time
 
