@@ -32,6 +32,10 @@ Incremental improvement is powerful, and all great successes have been built inc
 
 As of now, GettingBetter exists only as a blog post guide (available here), and a loose schema definition (available here). Ultimately, the goal is to develop it into a simple web-app that anyone can use to generate and keep track of their microsystems.
 
+### Architecture
+
+![](/docs/systems-based-architecture.png)
+
 ### Tenets
 
 - Schedules are generally more trouble than they're worth
