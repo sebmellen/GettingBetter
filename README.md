@@ -2,13 +2,13 @@
 
 ## GettingBetter is a systems-based approach to improving your life.
 
-#### Principles
+### Principles
 
 - Modularity is key.
 - The smaller a task, the more likely you are to do it.
 - It is better (and easier) to fill up your life with good things than cleanse it of bad things.
 
-#### Behind the Name
+### Behind the Name
 
 The name is inspired by the [Beatles song "Getting Better"](https://www.youtube.com/watch?v=EGlo9LzmOME), in which Paul McCartney sings:
 
