@@ -97,3 +97,5 @@ You probably want to achieve something, so you probably have goals. If you're se
 ---
 
 The idea for this project came to me from a psychedelic revelation about the power of attention. Human attention is akin to a strong light, or laser, and most of us split our attention up into thousands of little beams which are unable to actually "burn up" the tasks we focus on. If we can turn our attention into a strong laser beam, from a split up mess, we can knock tasks out quickly, one at a time, and move on to the next. If we have the full power of our attention available, most of the concepts we use to "manage our productivity" become secondary and unimportant, because as long as we are doing something, it doesn't matter what we're doing. 
+
+You want to be in "zombie mode" for the things you do every day.
