@@ -6,7 +6,6 @@ gettingbetter add task "Go to bed early" ~/User/Bob/gettingbetter.toml
 
 circadian_reset/bedtime
 
-> Task "Go to bed early" has been added to routine "reset_circadian_rhythms" in position 21. If this position is satisfactory, reply Y, otherwise, reply with the desired position number, e.g. "7".
 
 13
 

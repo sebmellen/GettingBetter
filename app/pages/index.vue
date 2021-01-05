@@ -1,12 +1,12 @@
 <template>
   <div>
-    <section class="section">
-      <div class="container content">
-        <h1 class="title">GettingBetter</h1>
-        <h3 class="subtitle">
+    <section>
+      <div class="container">
+        <h1>GettingBetter</h1>
+        <h2 class="h3">
           <em> A systems-based framework for improving your life. </em>
-        </h3>
-        <blockquote class="border-left blockquote pl-3">
+        </h2>
+        <blockquote class="pl-3 border-left blockquote">
           I've got to admit it's getting better (Better) <br />
           A little better all the time <br />
           <em
@@ -22,35 +22,27 @@
     </section>
 
     <section>
-      <b-field grouped group-multiline>
-        <b-button
-          class="bg-danger"
-          :disabled="!checkedRows.length"
-          @click="checkedRows = []"
-        >
-          <b-icon icon="close"></b-icon>
-          <span>Uncheck all</span>
-        </b-button>
-        <b-button class="bg-primary" @click="openAddNewTaskModal()">
-          Launch component modal
-        </b-button>
-        <b-modal :active.sync="isAddNewTaskModalActive" has-modal-card>
-          <add-new-task-modal></add-new-task-modal>
-        </b-modal>
-      </b-field>
+      <hr />
+      <p>This is where you create your gettingbetter.toml schema!</p>
+    </section>
 
-      <b-table striped hover :fields="tableFields" :items="tableItems">
-        <template v-slot:cell(selected)="{ rowSelected }">
-          <template v-if="rowSelected">
-            <span aria-hidden="true">&check;</span>
-            <span class="sr-only">Selected</span>
-          </template>
-          <template v-else>
-            <span aria-hidden="true">&nbsp;</span>
-            <span class="sr-only">Not selected</span>
-          </template>
-        </template>
-      </b-table>
+    <section>
+      <b-table
+        :striped="striped"
+        :bordered="bordered"
+        :borderless="borderless"
+        :outlined="outlined"
+        :small="small"
+        :hover="hover"
+        :dark="dark"
+        :fixed="fixed"
+        :foot-clone="footClone"
+        :no-border-collapse="noCollapse"
+        :items="items"
+        :fields="fields"
+        :head-variant="headVariant"
+        :table-variant="tableVariant"
+      ></b-table>
     </section>
   </div>
 </template>
@@ -59,38 +51,36 @@
 export default {
   name: 'Homepage',
   data() {
-    const data = [
-      {
-        order: 1,
-        task: 'Jesse',
-        routine: 'Male',
-      },
-      {
-        order: 2,
-        task: 'John',
-        routine: 'Male',
-      },
-      {
-        order: 3,
-        task: 'Tina',
-        routine: 'Female',
-      },
-    ]
-
     return {
-      data,
-      checkboxPosition: 'left',
-      checkedRows: [data[0]],
-      tableFields: ['CHECK', 'ORDER', 'TASK', 'ROUTINE'],
-      isAddNewTaskModalActive: false,
-      selectedTodo: {},
-      isCreateNewTaskModalActive: false,
+      fields: ['system', 'goal', 'routines'],
+      items: [
+        { system: 'morning', goal: 'Dickerson', last_name: 'Macdonald' },
+        { system: 'night', goal: 'Larsen', last_name: 'Shaw' },
+        { system: 'noon', goal: 'Geneva', last_name: 'Wilson' },
+      ],
+      tableVariants: [
+        'primary',
+        'secondary',
+        'info',
+        'danger',
+        'warning',
+        'success',
+        'light',
+        'dark',
+      ],
+      striped: false,
+      bordered: false,
+      borderless: false,
+      outlined: false,
+      small: false,
+      hover: false,
+      dark: false,
+      fixed: false,
+      footClone: false,
+      headVariant: null,
+      tableVariant: '',
+      noCollapse: false,
     }
-  },
-  methods: {
-    openAddNewTaskModal() {
-      this.isAddNewTaskModalActive = true
-    },
   },
 }
 </script>
