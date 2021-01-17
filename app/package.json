@@ -1,33 +1,36 @@
 {
-  "name": "GettingBetter",
-  "version": "1.0.0",
-  "private": true,
+  "name": "gettingbetter",
+  "version": "0.0.1",
+  "description": "A microsystems framework for improving your life.",
+  "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint": "yarn lint:js"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebmellen/gettingbetter.git"
+  },
+  "author": "Sebastian Mellen and The Daring LLC",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sebmellen/gettingbetter/issues"
+  },
+  "homepage": "https://github.com/sebmellen/gettingbetter#readme",
   "dependencies": {
-    "bootstrap": "^4.5.3",
-    "bootstrap-vue": "^2.21.1",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
-    "nuxt-buefy": "^0.4.3",
-    "sass-loader": "^10.0.3",
-    "vue": "^2.6.12"
+    "next": "10.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^3.1.0",
-    "@nuxtjs/eslint-module": "^2.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.10.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "node-sass": "^4.14.1",
-    "prettier": "^2.1.2"
+    "autoprefixer": "10.1.0",
+    "classnames": "2.2.6",
+    "postcss": "8.2.1",
+    "postcss-100vh-fix": "1.0.2",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-hover-media-feature": "1.0.0",
+    "postcss-preset-env": "6.7.0",
+    "tailwindcss": "2.0.2"
   }
 }
