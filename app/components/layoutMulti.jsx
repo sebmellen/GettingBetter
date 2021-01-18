@@ -95,12 +95,11 @@ export default function LayoutMulti(props) {
             tabIndex="0"
           >
             <div className="absolute inset-0 px-4 py-6 sm:px-6 lg:px-8">
-              <h1 className="text-3xl font-bold text-gray-800">Routines</h1>
               <RoutineLayout />
             </div>
           </main>
           <aside className="relative flex-shrink-0 hidden border-r border-gray-200 xl:order-first xl:flex xl:flex-col w-96">
-            <div className="absolute inset-0 px-2 py-6 sm:px-6 lg:px-8">
+            <div className="absolute inset-0 py-6">
               <h1 className="px-2 mb-5 text-3xl font-bold text-gray-800">
                 Systems
               </h1>
