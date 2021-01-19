@@ -25,9 +25,7 @@ export default function RoutineLayout() {
                       <th className="px-6 py-3 text-sm font-medium leading-4 tracking-wider text-left text-gray-500 uppercase bg-gray-50">
                         Description
                       </th>
-                      <th className="px-6 py-3 text-sm font-medium leading-4 tracking-wider text-left text-gray-500 uppercase bg-gray-50">
-                        Email
-                      </th>
+
                       <th className="px-6 py-3 text-sm font-medium leading-4 tracking-wider text-left text-gray-500 uppercase bg-gray-50">
                         Role
                       </th>
@@ -37,22 +35,20 @@ export default function RoutineLayout() {
 
                   <tbody className="bg-white divide-y divide-gray-200">
                     <tr>
-                      <td className="px-6 py-4 leading-5 text-gray-900 whitespace-no-wrap text-md">
+                      <td className="px-6 py-4 leading-5 text-gray-700 whitespace-no-wrap text-md">
                         Jane Cooper adfasd asd asdfasdf
                       </td>
                       <td className="px-6 py-4 text-sm leading-5 text-gray-500 whitespace-no-wrap">
                         Regional Paradigm Technician
                       </td>
-                      <td className="px-6 py-4 text-sm leading-5 text-gray-500 whitespace-no-wrap">
-                        jane.cooper@example.com
-                      </td>
+
                       <td className="px-6 py-4 text-sm leading-5 text-gray-500 whitespace-no-wrap">
                         Admin
                       </td>
                       <td className="px-6 py-4 text-sm font-medium leading-5 text-right whitespace-no-wrap">
                         <a
                           href="#"
-                          className="text-indigo-600 hover:text-indigo-900"
+                          className="text-green-600 hover:text-green-900"
                         >
                           Edit
                         </a>

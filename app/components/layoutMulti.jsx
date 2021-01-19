@@ -75,7 +75,7 @@ export default function LayoutMulti(props) {
             <div>
               <img
                 className="w-auto h-8"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                src="https://example.com"
                 alt="Workflow"
               />
             </div>
